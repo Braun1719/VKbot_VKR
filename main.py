@@ -72,7 +72,7 @@ def clean_text(text: str) -> str:
     if not text:
         return text
     cleaned = re.sub(r'^\[club\d+\|@club\d+\]\s*', '', text)
-    return cleaned
+    return cleaned 
 
 # ==================== КЛАВИАТУРЫ ====================
 def get_main_keyboard():
